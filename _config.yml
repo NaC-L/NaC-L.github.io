@@ -26,11 +26,7 @@ twitter_username: _nnaci
 github_username:  NaC-L
 
 # Build settings
-remote_theme: jekyll/minima
-plugins:
-  - jekyll-remote-theme
-minima:
-  skin: dark
+theme: minima
 
 
 
