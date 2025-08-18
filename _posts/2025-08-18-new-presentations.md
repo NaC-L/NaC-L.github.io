@@ -6,7 +6,7 @@ title: "Check out my presentations!"
 I'm excited to share the two presentations. You can download them below.
 
 ### Using LLVM to Deobfuscate and Devirtualize
-*Presented at: TTMO Talk on 18.08.2025* **[Download the slides (PDF)]({{ '/assets/pdf/Using-LLVM-to-Deobfuscate-and-Devirtualize.pdf' | relative_url }})**
+*Presented at: TTMO Talk on 16.08.2025* **[Download the slides (PDF)]({{ '/assets/pdf/Using-LLVM-to-Deobfuscate-and-Devirtualize.pdf' | relative_url }})**
 
 ---
 
