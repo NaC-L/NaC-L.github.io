@@ -437,6 +437,8 @@ Check these amazing people out if you don't already know them.
 
 [can1357](https://blog.can.ac/)
 
+[Jack Royer](https://github.com/Garfield1002)
+
 
 <style>
 /* Thumbnail Styles */
