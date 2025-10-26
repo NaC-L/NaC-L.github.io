@@ -29,6 +29,7 @@ github_username:  NaC-L
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
 minima:
   skin: dark
 
