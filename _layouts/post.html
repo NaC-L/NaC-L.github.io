@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+<header class="post-header">
+<a class="back-link" href="{{ '/' | relative_url }}">← All writing</a>
+<p class="eyebrow"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d %B %Y' }}</time></p>
+<h1>{{ page.title | escape }}</h1>
+</header>
+<div class="prose">{{ content }}</div>
+<footer class="post-end"><span>Thanks for reading.</span><a href="{{ '/' | relative_url }}">Back to all writing ↗</a></footer>
+</article>

@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I write about reverse engineering, binary lifting, and using compiler techniques to understand protected programs.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This blog collects my notes on LLVM, deobfuscation, VMProtect, and Themida, alongside presentation slides.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Find my projects on [GitHub](https://github.com/NaC-L), follow me on [X / Twitter](https://twitter.com/_nnaci), or subscribe to the [RSS feed](/feed.xml).

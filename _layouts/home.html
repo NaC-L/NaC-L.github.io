@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<section class="hero">
+<h1>Naci's blog</h1>
+<p class="hero-description">Reverse engineering, LLVM, and binary lifting. Sometimes slides.</p>
+<div class="debug-strip" aria-hidden="true"><span>.text / personal notes</span><span>LLVM · x86_64</span></div>
+<div class="kawaii-ribbon" aria-hidden="true"><span>♡ welcome home, internet creature ♡</span><span>nya~ (≧◡≦)</span></div>
+<div class="brainrot-shrine" aria-hidden="true">
+<figure class="mascot mascot-pink">
+<span class="sticker-label">certified stack enjoyer</span>
+<span class="mascot-charm" aria-hidden="true">♡</span>
+<img src="{{ '/assets/img/mascot-pink.svg' | relative_url }}" alt="" width="240" height="280">
+<figcaption>no thoughts. only opcodes.</figcaption>
+</figure>
+<div class="shrine-notice">
+<span class="shrine-stamp">DANGER ♡</span>
+<strong>the compiler is<br>in the walls</strong>
+<p>please do not feed the undefined behavior</p>
+<div class="web-badges"><span>LLVM INSIDE</span><span>UNDEFINED BEHAVIOR</span><span>BEST VIEWED AT 3AM</span><span>VECTOR WAIFUS</span></div>
+<small>absolutely no warranty</small>
+<div class="kawaii-stickers"><span>segfault princess</span><span>head empty<br>stack full</span><span>emotional support<br>debugger</span></div>
+</div>
+<figure class="mascot mascot-blue">
+<span class="sticker-label">segfault containment unit</span>
+<span class="mascot-charm" aria-hidden="true">✦</span>
+<img src="{{ '/assets/img/mascot-blue.svg' | relative_url }}" alt="" width="240" height="280">
+<figcaption>it worked before you looked.</figcaption>
+</figure>
+</div>
+<div class="kawaii-club" aria-hidden="true"><span>✧･ﾟ: *✧･ﾟ:*</span><strong>magical girl compiler club</strong><span>*:･ﾟ✧*:･ﾟ✧</span></div>
+</section>
+<section id="writing" class="writing" aria-labelledby="writing-title">
+<div class="section-heading"><h2 id="writing-title">Posts</h2><span class="eyebrow">{{ site.posts | size }} entries</span></div>
+{% for post in site.posts %}
+<article class="post-row" data-index="{{ forloop.index0 | prepend: '0' }}">
+<div class="article-preview" aria-hidden="true">
+{% if post.preview_image %}<img src="{{ post.preview_image | relative_url }}" alt="" loading="lazy" width="600" height="300">
+{% else %}<span class="preview-type">{{ post.preview_label | default: 'Notes' | escape }}</span>{% endif %}
+</div>
+<div class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b' }}</time><span>{{ post.date | date: '%Y' }}</span></div>
+<div class="post-summary"><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% if post.description %}{{ post.description | escape }}{% else %}{{ post.excerpt | strip_html | normalize_whitespace | truncatewords: 28 }}{% endif %}</p></div>
+<span class="row-arrow" aria-hidden="true">↗</span>
+</article>
+{% endfor %}
+{{ content }}
+</section>

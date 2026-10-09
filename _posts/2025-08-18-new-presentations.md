@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Check out my presentations!"
+description: "Slides on devirtualizing VMProtect with Mergen and using LLVM for deobfuscation."
+preview_label: LLVM / VMProtect
 ---
 
 I'm excited to share the two presentations. You can download them below.

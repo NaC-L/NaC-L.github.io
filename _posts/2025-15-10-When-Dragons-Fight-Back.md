@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "When Dragons Fight Back: Logic Assisted Reversal Program (L.A.R.P.) and Super Learning Optimized Program (S.L.O.P.)"
+description: "A closer look at VMDragonSlayer, its symbolic execution, and its approach to lifting control flow."
+preview_image: /assets/img/dragons/nightmare.jpg
 date:   2025-10-14 15:06:37 +0300
 toc: true
 categories:

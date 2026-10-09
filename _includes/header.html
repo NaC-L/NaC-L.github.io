@@ -1,0 +1,18 @@
+<header class="site-header shell">
+<a class="brand" href="{{ '/' | relative_url }}" aria-label="Naci's blog home">NaC-L<span class="brand-dot">.</span></a>
+<nav aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}" {% if page.layout == 'home' %}aria-current="page"{% endif %}>Writing</a>
+<a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
+<a href="https://github.com/{{ site.github_username }}">GitHub <span aria-hidden="true">↗</span></a>
+<div class="theme-picker" role="group" aria-label="Theme" hidden>
+<span class="theme-name" id="theme-name" aria-live="polite">Plaintext</span>
+<div class="theme-swatches">
+<button class="theme-swatch" type="button" value="simple" aria-label="Plaintext" title="Plaintext" aria-pressed="true">Aa</button>
+<button class="theme-swatch" type="button" value="tech" aria-label="Disassembler" title="Disassembler" aria-pressed="false">{}</button>
+<button class="theme-swatch" type="button" value="schizo" aria-label="Brainrot" title="Brainrot" aria-pressed="false">♡</button>
+<button class="theme-swatch" type="button" value="hexdump" aria-label="Workbench" title="Workbench" aria-pressed="false">·</button>
+<button class="theme-swatch" type="button" value="monograph" aria-label="Margin" title="Margin" aria-pressed="false">/</button>
+</div>
+</div>
+</nav>
+</header>
