@@ -12,7 +12,7 @@
   --panel: #23372d;
 }
 [data-theme='hexdump'] body { font: 16px/1.8 system-ui, sans-serif; }
-[data-theme='hexdump'] .shell { width: min(980px, calc(100% - 64px)); }
+[data-theme='hexdump'] .shell { width: calc(100% - 64px); }
 [data-theme='hexdump'] .site-header { padding-block: 26px; border-bottom: 1px dashed var(--line); }
 [data-theme='hexdump'] .brand { font: 600 20px var(--mono); letter-spacing: -.04em; }
 [data-theme='hexdump'] nav { font: 13px/1.6 var(--mono); }
@@ -48,7 +48,7 @@
   --panel: #e9e7dc;
 }
 [data-theme='monograph'] body { font: 17px/1.8 Georgia, 'Times New Roman', serif; }
-[data-theme='monograph'] .shell { width: min(1040px, calc(100% - 64px)); }
+[data-theme='monograph'] .shell { width: calc(100% - 64px); }
 [data-theme='monograph'] .site-header { padding-block: 26px; border-bottom: none; }
 [data-theme='monograph'] .brand { font: italic 25px Georgia, serif; letter-spacing: -.03em; }
 [data-theme='monograph'] nav { font-size: 13px; }
